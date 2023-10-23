@@ -1,2 +1,0 @@
-add_executable(noise src/noise.cpp)
-x
