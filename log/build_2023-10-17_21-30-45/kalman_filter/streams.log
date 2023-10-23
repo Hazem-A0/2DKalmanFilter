@@ -1,0 +1,25 @@
+[1.254s] Invoking command in '/home/hazem/turtlebot3_localization/build/kalman_filter': PYTHONPATH=/home/hazem/turtlebot3_localization/build/kalman_filter/prefix_override:/home/hazem/turtlebot3_localization/install/kalman_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hazem/turtlebot3_localization/build/kalman_filter/build --no-deps install_data
+[1.680s] running develop
+[1.953s] running egg_info
+[1.953s] creating kalman_filter.egg-info
+[1.954s] writing kalman_filter.egg-info/PKG-INFO
+[1.954s] writing dependency_links to kalman_filter.egg-info/dependency_links.txt
+[1.954s] writing entry points to kalman_filter.egg-info/entry_points.txt
+[1.954s] writing requirements to kalman_filter.egg-info/requires.txt
+[1.955s] writing top-level names to kalman_filter.egg-info/top_level.txt
+[1.955s] writing manifest file 'kalman_filter.egg-info/SOURCES.txt'
+[1.957s] reading manifest file 'kalman_filter.egg-info/SOURCES.txt'
+[1.958s] writing manifest file 'kalman_filter.egg-info/SOURCES.txt'
+[1.960s] running build_ext
+[1.960s] Creating /home/hazem/turtlebot3_localization/install/kalman_filter/lib/python3.10/site-packages/kalman-filter.egg-link (link to .)
+[1.961s] Installing KalmanFilter script to /home/hazem/turtlebot3_localization/install/kalman_filter/lib/kalman_filter
+[1.962s] Installing Noise script to /home/hazem/turtlebot3_localization/install/kalman_filter/lib/kalman_filter
+[1.962s] 
+[1.962s] Installed /home/hazem/turtlebot3_localization/build/kalman_filter
+[1.962s] running install_data
+[1.962s] creating /home/hazem/turtlebot3_localization/install/kalman_filter/share/ament_index
+[1.963s] creating /home/hazem/turtlebot3_localization/install/kalman_filter/share/ament_index/resource_index
+[1.963s] creating /home/hazem/turtlebot3_localization/install/kalman_filter/share/ament_index/resource_index/packages
+[1.963s] copying resource/kalman_filter -> /home/hazem/turtlebot3_localization/install/kalman_filter/share/ament_index/resource_index/packages
+[1.963s] copying package.xml -> /home/hazem/turtlebot3_localization/install/kalman_filter/share/kalman_filter
+[2.002s] Invoked command in '/home/hazem/turtlebot3_localization/build/kalman_filter' returned '0': PYTHONPATH=/home/hazem/turtlebot3_localization/build/kalman_filter/prefix_override:/home/hazem/turtlebot3_localization/install/kalman_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hazem/turtlebot3_localization/build/kalman_filter/build --no-deps install_data

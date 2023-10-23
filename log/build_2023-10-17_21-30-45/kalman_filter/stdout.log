@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating kalman_filter.egg-info
+writing kalman_filter.egg-info/PKG-INFO
+writing dependency_links to kalman_filter.egg-info/dependency_links.txt
+writing entry points to kalman_filter.egg-info/entry_points.txt
+writing requirements to kalman_filter.egg-info/requires.txt
+writing top-level names to kalman_filter.egg-info/top_level.txt
+writing manifest file 'kalman_filter.egg-info/SOURCES.txt'
+reading manifest file 'kalman_filter.egg-info/SOURCES.txt'
+writing manifest file 'kalman_filter.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hazem/turtlebot3_localization/install/kalman_filter/lib/python3.10/site-packages/kalman-filter.egg-link (link to .)
+Installing KalmanFilter script to /home/hazem/turtlebot3_localization/install/kalman_filter/lib/kalman_filter
+Installing Noise script to /home/hazem/turtlebot3_localization/install/kalman_filter/lib/kalman_filter
+
+Installed /home/hazem/turtlebot3_localization/build/kalman_filter
+running install_data
+creating /home/hazem/turtlebot3_localization/install/kalman_filter/share/ament_index
+creating /home/hazem/turtlebot3_localization/install/kalman_filter/share/ament_index/resource_index
+creating /home/hazem/turtlebot3_localization/install/kalman_filter/share/ament_index/resource_index/packages
+copying resource/kalman_filter -> /home/hazem/turtlebot3_localization/install/kalman_filter/share/ament_index/resource_index/packages
+copying package.xml -> /home/hazem/turtlebot3_localization/install/kalman_filter/share/kalman_filter
