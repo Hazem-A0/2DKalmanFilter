@@ -11,14 +11,14 @@ class KalmanFilter(Node):
         # Initialize kalman variables
 
         self.A = np.eye(4)  # State transition matrix
-        self.B = np.zeros((4, 2))  # Control matrix (not used in this example)
+        self.B = np.zeros((4, 2))  # Control matrix 
         self.H = np.array([[1, 0, 0, 0], [0, 1, 0, 0]])  # Measurement matrix
         self.R = np.eye(2)  # Measurement noise covariance
         self.Q = np.eye(4)  # Process noise covariance
         self.P = np.eye(4)  # Initial estimate covariance
         self.x_hat = np.zeros((4, 1))  # Initial state estimate [x, y, vx, vy]
 
-         # Lists for plotting
+        # Lists for plotting
         self.estimated_positions = []
         self.ground_truth_positions = []
 
@@ -35,8 +35,9 @@ class KalmanFilter(Node):
     def odom_callback(self, msg):
         # Extract the position measurements from the Odometry message
         z = np.array([[msg.pose.pose.position.x], [msg.pose.pose.position.y]])
+
         # Prediction step
-        self.x_hat = np.dot(self.A, self.x_hat)  # Predicted state estimate
+        self.x_hat = np.dot(self.A, self.x_hat) + np.dot(self.B,self.u)  # Predicted state estimate
         self.P = np.dot(np.dot(self.A, self.P), self.A.T) + self.Q  # Predicted estimate covariance
         
         # Update step
